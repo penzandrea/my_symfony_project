@@ -11,9 +11,9 @@
 /web/bundles/
 
 # Cache, session files and logs (Symfony3)
-/var/cache/*
+/var/cache/**
 /var/logs/*
-/var/sessions/*
+/var/sessions/**
 !var/cache/.gitkeep
 !var/logs/.gitkeep
 !var/sessions/.gitkeep
@@ -46,6 +46,20 @@
 
 # Composer PHAR
 /composer.phar
+
+# Node Modules
+/node_modules/**
+
+# Stylesheets
+/web/stylesteets/**
+!/web/stylesteets/main.css
+!/web/stylesteets/main.scss
+!/web/stylesteets/base/_typography.scss
+!/web/stylesteets/layout/_grid.scss
+
+/web/js/**
+
+
 
 # Backup entities generated with doctrine:generate:entities command
 */Entity/*~

@@ -1,0 +1,62 @@
+//https://www.sitepoint.com/architecture-sass-project/
+
+// base
+//@import "base/reset";
+@import "base/typography";
+
+// components
+//@import "components/buttons";
+//@import "components/carousel";
+//@import "components/cover";
+//@import "components/dropdown";
+//@import "components/navigation";
+// ...
+
+// helpers
+//@import "helpers/variables";
+//@import "helpers/functions";
+//@import "helpers/mixins";
+
+
+//layout
+@import "layout/grid";
+//@import "layout/header";
+//@import "layout/footer";
+//@import "layout/sidebar";
+//@import "layout/forms";
+
+//pages
+//@import "pages/home";
+//@import "pages/contact";
+//@import "pages/functions";
+//@import "pages/functions";
+//@import "pages/functions";
+//@import "pages/functions";
+
+//themes
+//@import "themes/theme";
+//@import "themes/admin";
+
+//vendors
+//@import "vendors/bootstrap";
+//@import "vendors/jquery.ui.core";
+
+/**
+* This to do
+* multine comments
+* that will output in the CSS
+* depending on the mode
+*/
+
+// This for multiline comments
+// That will not output
+// in the CSS
+
+/**!
+* This to do multiline
+* comments that will always output
+*/
+
+
+
+

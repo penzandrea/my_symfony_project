@@ -3,11 +3,32 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {% block stylesheets %}
+            <link href="{{ asset('stylesheets/main.css') }}" rel="stylesheet" />
+        {% endblock %}
+
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
-        {% block body %}{% endblock %}
+        <!-- header to be inserted-->
+        <section class="hero">
+            <div class="container">
+            </div>
+        </section>
+
+        <section class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        {% block body %}{% endblock %}
+                    </div>
+                    <div class="col-6">Col #6</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer to be inserted-->
         {% block javascripts %}{% endblock %}
     </body>
 </html>
+
