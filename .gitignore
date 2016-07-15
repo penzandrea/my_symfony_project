@@ -57,6 +57,11 @@
 !/web/stylesteets/base/_typography.scss
 !/web/stylesteets/layout/_grid.scss
 
+/var/cache/
+/var/logs/
+/web/stylesheets/.sass-cache/
+/web/stylesheets/main.css.map
+
 /web/js/**
 
 
