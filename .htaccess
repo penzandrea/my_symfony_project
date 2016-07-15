@@ -1,0 +1,12 @@
+#    Options +FollowSymlinks
+#    RewriteEngine On
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+
+#... means that if the file with the specified name in the browser doesn't exist, or the directory in the browser doesn't exist then procede to the rewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^my_symfony_project/(.*)$ my_symfony_project/web/$1  [QSA,L]
+#RewriteRule ^/my_symfony_project/web/.*$ http://www.google.com/? [R=301,L]
+#RewriteRule ^web.*$ http://localhost:8888/my_symfony_project/hello/andrea [R=301,L]
+#RewriteCond %{HTTP_HOST} my_symfony_project$ [NC]
+#RewriteCond %{HTTP_HOST} !web
+#RewriteRule ^(.*)$ http://localhost:8888/my_symfony_project/web/$1 [R=301,L]
