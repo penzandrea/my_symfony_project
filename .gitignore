@@ -9,6 +9,7 @@
 /composer.phar
 /vendor/
 /web/bundles/
+<<<<<<< HEAD
 
 # Cache, session files and logs (Symfony3)
 /var/cache/**
@@ -68,3 +69,6 @@
 
 # Backup entities generated with doctrine:generate:entities command
 */Entity/*~
+=======
+/var/cache/*
+>>>>>>> a90ea3cff077b2f38b44025cd0a0529050a7050c
