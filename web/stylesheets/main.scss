@@ -1,11 +1,12 @@
 //https://www.sitepoint.com/architecture-sass-project/
 
 // base
-//@import "base/reset";
+@import "base/reset";
 @import "base/typography";
+@import "base/normalize";
 
 // components
-//@import "components/buttons";
+@import "components/buttons";
 //@import "components/carousel";
 //@import "components/cover";
 //@import "components/dropdown";
@@ -13,10 +14,10 @@
 // ...
 
 // helpers
-//@import "helpers/variables";
+@import "helpers/variables";
 //@import "helpers/functions";
 //@import "helpers/mixins";
-
+@import "helpers/helpers";
 
 //layout
 @import "layout/grid";

@@ -1,8 +1,264 @@
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+figure {
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-rounded {
+  border-radius: 6px;
+}
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.img-circle {
+  border-radius: 50%;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+[role="button"] {
+  cursor: pointer;
+}
+
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+
+
+dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+dt,
+dd {
+  line-height: 1.42857143;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777777;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+  font-size: 65%;
+}
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h4 small,
+.h4 small,
+h5 small,
+.h5 small,
+h6 small,
+.h6 small,
+h4 .small,
+.h4 .small,
+h5 .small,
+.h5 .small,
+h6 .small,
+.h6 .small {
+  font-size: 75%;
+}
+h1,
+.h1 {
+  font-size: 36px;
+}
+h2,
+.h2 {
+  font-size: 30px;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+h4,
+.h4 {
+  font-size: 18px;
+}
+h5,
+.h5 {
+  font-size: 14px;
+}
+h6,
+.h6 {
+  font-size: 12px;
+}
+p {
+  margin: 0 0 10px;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text-muted {
+  color: #777777;
+}
 /*! Documents/sass-test/test.scss */
 
 /* Sass variables start with the $ sign, 
 ...that's about all that makes it different from LESS syntax :p */
-$my_color: #BADA55;
+$my_color: #55a7da;
 
 /*nav {
   a{

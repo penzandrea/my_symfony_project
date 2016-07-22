@@ -6,7 +6,8 @@
 var gulp = require('gulp'),
    uglify = require('gulp-uglify'),
    jshint = require('gulp-jshint'),
-   concat = require('gulp-concat');
+   concat = require('gulp-concat')
+   livereload = require('gulp-livereload');
 
 gulp.task('minify', function () {
    gulp.src('web/js/*.js')
@@ -15,4 +16,10 @@ gulp.task('minify', function () {
       .pipe(uglify())
       .pipe(concat('app1.js'))
       .pipe(gulp.dest('web/build'))
+});
+
+
+gulp.task('watch', function() {
+  livereload.listen();
+  gulp.watch('web/stylesheets/main.css');
 });
